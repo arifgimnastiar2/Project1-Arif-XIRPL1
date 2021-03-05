@@ -8,6 +8,10 @@ import java.util.Scanner;
 import Classes.*;
 public class MainAplikasiKasir {
     public DaftarMenu daftarMenu;
+    //Tambahkan
+    public static double PAJAK_PPN = 0.10;
+    public static double BIAYA_SERVICE = 0.05;
+    //End of Tambah
     public static void main(String[] args){
         //Input dari keyboard
         Scanner input = new Scanner(System.in);
