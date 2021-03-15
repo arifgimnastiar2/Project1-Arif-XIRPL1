@@ -10,7 +10,18 @@ public class Pesanan{
 	private int jumlah;
 	private String keterangan;
 
-	public Pesanan(Menu menu, int jumlah) {}
+	public Pesanan(Menu menu, int jumlah) {
+            this.menu = menu;
+            this.jumlah = jumlah;
+        }
+        
+        //tambahkan
+        public Menu getMenu(){
+            return menu;
+        }
+        public int getJumlah(){
+            return jumlah;
+        }
 	public void setKeterangan(String keterangan) {}
 	public String getKeterangan() {return "";}
 }
